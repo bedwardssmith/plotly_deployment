@@ -130,16 +130,16 @@ function buildCharts(sample) {
 };
     
     // 4. Create the trace for the gauge chart.
-    var gaugeData = [
+   // var gaugeData = [
      
-    ];
+    //];
     
     // 5. Create the layout for the gauge chart.
-    var gaugeLayout = { 
+    //var gaugeLayout = { 
      
-    };
+    //};
 
     // 6. Use Plotly to plot the gauge data and layout.
     
-  });
-}
+//  });
+//}
