@@ -118,7 +118,7 @@ function buildCharts(sample) {
       marker: {
         size: values,
         color: values,
-        colorscale: "Geyser"
+        colorscale: "Purpor"
       }
     }];
     // Create the layout for the bubble chart.
@@ -140,13 +140,13 @@ function buildCharts(sample) {
      title: {text: "<b>Belly Button Washing Frequency</b> <br> Srubs Per Week"},
      gauge: {
        axis: {range: [null,10], dtick: "2"},
-       bar: {color: "darkslategrey"},
+       bar: {color: "black"},
        steps: [
-         {range: [0, 2], color:"lightsteelblue"},
-         {range: [2, 4], color:"cornflowerblue"},
-         {range: [4, 6], color:"slateblue"},
-         {range: [6, 8], color:"darkslateblue"},
-         {range: [8, 10], color:"blueviolet"}
+         {range: [0, 2], color:"thistle"},
+         {range: [2, 4], color:"plum"},
+         {range: [4, 6], color:"magenta"},
+         {range: [6, 8], color:"mediumorchid"},
+         {range: [8, 10], color:"purple"}
        ],
        dtick: 2
      }
