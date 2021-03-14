@@ -103,7 +103,7 @@ function buildCharts(sample) {
     // 1. Create the trace for the bubble chart.
     var bubbleData = [{
       x: ids,
-      y: values,
+      y: sample_values,
       text: labels,
       mode: "markers",
       marker: {
@@ -122,5 +122,5 @@ function buildCharts(sample) {
 
     // 3. Use Plotly to plot the data with the layout.
     Plotly.newPlot("bubble, bubbleData, bubbleLayout")
-  })
+  });
 };
