@@ -87,7 +87,7 @@ function buildCharts(sample) {
 
     // 3. Create a variable that holds the washing frequency.
    var washing = guageOne.wfreq;
-
+    console.log(washing)
     // Create the yticks for the bar chart.
     // Hint: Get the the top 10 otu_ids and map them in descending order 
     // so the otu_ids with the most bacteria are last. 
