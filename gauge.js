@@ -62,15 +62,19 @@ function buildCharts(sample) {
 
     // Create a variable that holds the samples array. 
     var sampleArray = data.samples;
+
     // Create a variable that filters the samples for the object with the desired sample number.
     var sampleNumber = sampleArray.filter(sampleObj => sampleObj.id == sample);
+
     // 1. Create a variable that filters the metadata array for the object with the desired sample number.
+    var metaData = data.metadata;
+    var guageArray = metaData.filter(metaObj => metaObj.id == sample);
 
     // Create a variable that holds the first sample in the array.
     var sampleOne = sampleNumber[0];
 
     // 2. Create a variable that holds the first sample in the metadata array.
-    
+    var guageOne = guageArray[0];
 
     // Create variables that hold the otu_ids, otu_labels, and sample_values.
     var ids = sampleOne.otu_ids;
@@ -82,7 +86,7 @@ function buildCharts(sample) {
 
 
     // 3. Create a variable that holds the washing frequency.
-   
+   var washing = guageOne.wfreq;
 
     // Create the yticks for the bar chart.
     // Hint: Get the the top 10 otu_ids and map them in descending order 
@@ -130,16 +134,24 @@ function buildCharts(sample) {
 };
     
     // 4. Create the trace for the gauge chart.
-   // var gaugeData = [
+   var gaugeData = [{
+     value: washing,
+     type: "indicator",
+     mode: "guage+umber",
+     title: "Belly Button Washing Frequency - Srubs Per Week",
+     guage: {
+       axis: {range: [null,10], dtick: "2"}
+     }
+   }
      
-    //];
+    ];
     
     // 5. Create the layout for the gauge chart.
-    //var gaugeLayout = { 
-     
-    //};
+    var gaugeLayout = { 
+     automarge: true
+    };
 
     // 6. Use Plotly to plot the gauge data and layout.
-    
-//  });
-//}
+    Plotly.newPlot("guage", guageData, guageLayout)
+  });
+}
