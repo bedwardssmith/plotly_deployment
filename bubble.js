@@ -109,7 +109,7 @@ function buildCharts(sample) {
       marker: {
         size: values,
         color: values,
-        colorscale: "BrBg"
+        colorscale: "Spectral"
       }
     }];
     // 2. Create the layout for the bubble chart.
