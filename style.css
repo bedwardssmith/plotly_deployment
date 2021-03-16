@@ -14,5 +14,8 @@
     background-color: #6495ED;
 }
 .well {
-    background-color: #6495ED;
+    background-color: darkblue;
+}
+.well h3 {
+    color: white;
 }
