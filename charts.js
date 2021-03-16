@@ -142,7 +142,7 @@ function buildCharts(sample) {
        axis: {range: [null,10], dtick: "2"},
        bar: {color: "black"},
        steps: [
-         {range: [0, 2], color:"#3636ff"},
+         {range: [0, 2], color:"#e6e6ff"},
          {range: [2, 4], color:"#9999ff"},
          {range: [4, 6], color:"#4d4dff"},
          {range: [6, 8], color:"#0000b3"},
