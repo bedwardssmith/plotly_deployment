@@ -129,7 +129,7 @@ function buildCharts(sample) {
       margin: {
         l: 200,
         r: 200,
-        pad: 300
+        pad: 300 }
     };
     // D2: 3. Use Plotly to plot the data with the layout.
     Plotly.newPlot("bubble", bubbleData, bubbleLayout)
