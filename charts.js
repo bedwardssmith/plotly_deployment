@@ -124,13 +124,11 @@ function buildCharts(sample) {
     // Create the layout for the bubble chart.
     var bubbleLayout = {
       title: {text: "<b>Bacteria Cultures per Sample</b>"},
-      xaxis: {title: "OTU ID"},
-      hovermode: "closest",
-      height: 800,
-      width: 800,     
+      xaxis: {title: "<b>OTU ID"</b>},
+      hovermode: "closest"    
     };
     // D2: 3. Use Plotly to plot the data with the layout.
-    Plotly.newPlot("bubble", bubbleData, bubbleLayout, {responsive: true})
+    Plotly.newPlot("bubble", bubbleData, bubbleLayout)
  
     
     // 4. Create the trace for the gauge chart.
