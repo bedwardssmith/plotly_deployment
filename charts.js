@@ -126,7 +126,7 @@ function buildCharts(sample) {
       title: {text: "<b>Bacteria Cultures per Sample</b>"},
       xaxis: {title: "OTU ID"},
       hovermode: "closest",
-      pad:10,
+      pad:100,
       width: 800,
       height: 500
     };
