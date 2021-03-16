@@ -146,7 +146,7 @@ function buildCharts(sample) {
          {range: [2, 4], color:"#9999ff"},
          {range: [4, 6], color:"#4d4dff"},
          {range: [6, 8], color:"#0000b3"},
-         {range: [8, 10], color:"#00080"}
+         {range: [8, 10], color:"#000080"}
        ],
        dtick: 2
      }
