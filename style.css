@@ -1,4 +1,4 @@
 
 .jumbotron { 
-    background-image: #URL("/cells.jpg");
+    background-image: URL("/cells.jpg");
 }
