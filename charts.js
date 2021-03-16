@@ -130,7 +130,7 @@ function buildCharts(sample) {
       width: 800,     
     };
     // D2: 3. Use Plotly to plot the data with the layout.
-    Plotly.newPlot("bubble", bubbleData, bubbleLayout, responsive: true})
+    Plotly.newPlot("bubble", bubbleData, bubbleLayout, {responsive: true})
  
     
     // 4. Create the trace for the gauge chart.
