@@ -127,12 +127,10 @@ function buildCharts(sample) {
       xaxis: {title: "OTU ID"},
       hovermode: "closest",
       height: 800,
-      width: 800,
-      
-      
+      width: 800,     
     };
     // D2: 3. Use Plotly to plot the data with the layout.
-    Plotly.newPlot("bubble", bubbleData, bubbleLayout)
+    Plotly.newPlot("bubble", bubbleData, bubbleLayout, responsive: true})
  
     
     // 4. Create the trace for the gauge chart.
