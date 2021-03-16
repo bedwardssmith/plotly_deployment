@@ -2,3 +2,7 @@
 .jumbotron { 
     background-image: URL("cells.jpg");
 }
+
+.humbotron h1 {
+    color: #fffl;
+}
