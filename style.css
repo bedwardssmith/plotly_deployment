@@ -3,6 +3,10 @@
     background-image: URL("cells.jpg");
 }
 
-.humbotron p {
+.jumbotron h1 {
     color: #fffl;
+}
+
+.jumbotron p {
+        color: #fff1;
 }
