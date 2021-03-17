@@ -124,12 +124,12 @@ function buildCharts(sample) {
     // Create the layout for the bubble chart.
     var bubbleLayout = {
       title: {text: "<b>Bacteria Cultures per Sample</b>"},
-      xaxis: {title: "OTU ID"},
+      xaxis: {title: "<b>OTU ID</b>"},
       hovermode: "closest",
       margin: {
         l: 400,
-        r: 200,
-        pad: 400}    
+        r: 200
+        }    
     };
     // D2: 3. Use Plotly to plot the data with the layout.
     Plotly.newPlot("bubble", bubbleData, bubbleLayout)
