@@ -128,7 +128,7 @@ function buildCharts(sample) {
       xaxis: {title: "<b>OTU ID</b>"},
       hovermode: "closest", 
       margin: {
-        l: 300}
+        l: 500}
     };
     // D2: 3. Use Plotly to plot the data with the layout.
     Plotly.newPlot("bubble", bubbleData, bubbleLayout)
