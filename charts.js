@@ -128,8 +128,8 @@ function buildCharts(sample) {
       hovermode: "closest",
       margin: {
         l: 600,
-        r: 600,
-        pad: 100}
+        r: 300,
+        pad: 400}
        
     };
     // D2: 3. Use Plotly to plot the data with the layout.
