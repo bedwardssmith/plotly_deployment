@@ -128,8 +128,7 @@ function buildCharts(sample) {
       xaxis: {title: "<b>OTU ID</b>"},
       hovermode: "closest",
       margin: {
-        l: 450,
-        r: 200
+        l: 600
         }    
     };
     // D2: 3. Use Plotly to plot the data with the layout.
