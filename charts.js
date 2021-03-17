@@ -129,7 +129,7 @@ function buildCharts(sample) {
       hovermode: "closest",
       margin: {
         l: 600,
-        r: 100}    
+        r: 200}    
     };
     // D2: 3. Use Plotly to plot the data with the layout.
     Plotly.newPlot("bubble", bubbleData, bubbleLayout)
