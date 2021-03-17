@@ -1,6 +1,6 @@
 
 .jumbotron { 
-    background-image: URL:"../images/cells.jpg"
+    background-image: url("../images/cells.jpg");
 }
 
 .jumbotron h1 {
